@@ -154,7 +154,6 @@ void command_parser_fsm(){
 		case K:
 			if(temp == '#'){
 				flag_OK = 1;
-				flag_RST = 0;
 				state = INIT;
 			}else if(temp == '!'){
 				state = BEGIN;
